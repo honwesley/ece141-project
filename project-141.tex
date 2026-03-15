@@ -721,7 +721,15 @@ The system is disturbed from equilibrium and the goal is to make the output retu
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
+  \large{Summary -- Part 6}
+  \normalsize{}
+  The goal was to design a controller such that it would cause the unstable system's output to decay to 0 
+  in 0.05 seconds or less and without overshoot.
+  In my solution, the linearized system from Part 5 was implemented in Simulink
+  using a State-Space block with output $y = \delta v_{dc}$ and initial condition $\delta x(0) = \begin{bmatrix}
+    8 & -8
+  \end{bmatrix}^T$. A stiff solver(ode23s) was used. Since the open-loop transfer function $H(s) = \dfrac{10^8}{s^2-21.25s+10^8}$ is unstable, a proportional controller alone cannot stabilize the system because it does not change the sign of the s-term in the characteristic equation.
+  Therefore, a PD controller was selected. With $K_p = 0, K_i = 0,$ and $K_d = 2.5*10^{-4}$, the closed loop characteristic polynomial becomes $s^2 + 24978.75s + 10^8$, which has two real negative poles. The corresponding response is stable, non-oscillatory, and settles to zero well within $0.05$s, satisfying the design requirements. 
 \end{tcolorbox}
 
 \section{Simulink Implementation} 
