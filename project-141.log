@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.13)  15 MAR 2026 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.13)  15 MAR 2026 02:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1094,23 +1094,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 707--708
 
  []
 
-[19 <./figure1.png> <./figure2.png>] [20 <./figure3.png>] [21] (./project-141.aux)
+[19 <./figure1.png> <./figure2.png>]
+Underfull \hbox (badness 1019) in paragraph at lines 736--737
+\OT1/cmr/m/n/12 Implement the orig-i-nal non-lin-ear model in Simulink, as-sum-ing the ini-tial states of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
+
+ []
+
+[20 <./figure3.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--788
+
+ []
+
+[21] [22] (./project-141.aux)
 Package rerunfilecheck Info: File `project-141.out' has not changed.
 (rerunfilecheck)             Checksum: 9181FBE89EA5B832049AB994FDA27AE1;1282.
  ) 
 Here is how much of TeX's memory you used:
- 28518 strings out of 478268
- 572869 string characters out of 5846347
+ 28519 strings out of 478268
+ 572876 string characters out of 5846347
  880664 words of memory out of 5000000
  46234 multiletter control sequences out of 15000+600000
  480539 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 90i,20n,99p,954b,1407s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 90i,20n,99p,956b,1407s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on project-141.pdf (21 pages, 521509 bytes).
+Output written on project-141.pdf (22 pages, 524895 bytes).
 PDF statistics:
- 277 PDF objects out of 1000 (max. 8388607)
- 176 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 282 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  268 words of extra memory for PDF output out of 10000 (max. 10000000)
 
