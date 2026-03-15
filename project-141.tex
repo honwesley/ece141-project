@@ -717,6 +717,7 @@ The system is disturbed from equilibrium and the goal is to make the output retu
   oscillation. As seen in Figure 3, we see that the settling time is 
   way below the specified settling time of 0.05s.
 \end{tcolorbox}
+
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
@@ -726,4 +727,51 @@ The system is disturbed from equilibrium and the goal is to make the output retu
 \section{Simulink Implementation} 
 Implement the original nonlinear model in Simulink, assuming the initial states of $x(0) = x_0 + \delta x(0)$ and with the same parameters as Part 6. Keep in mind that the input $v_s$ and the states $v_{dc}$ needs to be non-negative at all times, with the additional safety requirement that they shall not exceed $160V, 20A and 200V$ respectively. \textit{Hint: } you can use a saturation block in Simulink and set its lower and upper limits to the corresponding safety bounds. Apply the controller found in Part 6 by placing it in the closed-loop with the nonlinear model in Simulink. Since we are translating the system back to the original system, adjust the controller input appropriately, and the output's settling value. If needed, redesign your controller. Comment on the differences you observe as you implement the controller in the linearized vs the nonlinear model.
 
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
 \end{document}
