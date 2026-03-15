@@ -625,7 +625,31 @@ The system is disturbed from equilibrium and the goal is to make the output retu
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
   An option is to use a PD controller to make the system overdamped, so that guarantees no overshoot.\\
-
+  \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+    Assuming $K_p = 0$ since the last term will always be positive, we then calculate the $K_d$ needed
+    to make this system overdamped.
+    \begin{align*}
+      D &= b^2-4ac>0\\
+      D &= (10^8 K_d -21.25)^2 -4*10^8 > 0\\
+      (10^8 K_d -21.25)^2 &>4*10^8 \\
+      10^8 K_d -21.25 &>2*10^4 \\
+      K_d * 10^8 &> \approx 2*10^4\\
+      K_d &> 2*10^{-4}\\
+    \end{align*}
+    $\hookrightarrow$ thus, this criterion of $K_d$ makes the 2nd order controller overdamped.
+  \end{tcolorbox}
+  
+  \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+    To ensure that the system is stable, all of the coefficients in the 2nd
+    order system characteristic polynomial equation must be positive.
+    \begin{align*}
+      10^8K_d -21.25 &> 0\\
+      10^8(1+K_p) &> 0\\
+    \end{align*}
+    \[K_d > 2.125 *10^{-7}, K_p >\approx 0\]
+    $\hookrightarrow$ thus, with the coefficients all positive, the system is ensured to be stable.
+  \end{tcolorbox}
+  
   An example of controller values are $K_p = 0$, $K_d = 2.5*10^{-4}$.\\
   This yields a polynomial equation of:
   \[s^2 + 24978.75s+10^8\]
@@ -636,22 +660,68 @@ The system is disturbed from equilibrium and the goal is to make the output retu
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-
+  \begin{minipage}[t]{0.55\textwidth}
+    \vspace{0pt}
+    \includegraphics[width = \textwidth]{matlab7.png}
+  \end{minipage}\hfill
+  \begin{minipage}[t]{0.4\textwidth}
+    \vspace{0pt}
+    \textbf{Code Snippet 7: }In this Matlab code snippet, the closed loop poles were calculated from the original controller constants $K_p$ and $K_d$. 
+    The poles are equivalent to the values that were calculated earlier. 
+    The step info were also calculated in Matlab and analyzing the transient time, it is much less than the specified 0.005s maximum. 
+    The transient time is calculated to be 0.00093s. 
+  \end{minipage}
 \end{tcolorbox}
 
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-
+  \begin{minipage}{0.80\textwidth}
+    \includegraphics[width = \textwidth]{figure1.png}\\
+  \end{minipage}\\
+  \textbf{Figure 1: }This figure represents the closed-loop step response with a PD controller with the given specifications above. \\
+  In this figure, it is shown that the system experiences a disturbance at time = 0 seconds. \\
+  Then, the controller brings it back down to 0 within the 0.005s specification requirement.
 \end{tcolorbox}
 
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  \begin{minipage}{0.80\textwidth}
+    \vspace{-30pt}
+    \includegraphics[width = \textwidth]{figure2.png}\\
+  \end{minipage}\\
+  \textbf{Figure 2: }This figure represents the complete block diagram of the system. It highlights the reference input, the PID controller that we are designing, the state spaces, and the feedback and ultimately, the output.
+  The state space block takes the previous values for the matrices of 
+  \textbf{A}, \textbf{B}, \textbf{C}, and \textbf{D}.\\
 
+  The system also uses the initial condition $\begin{bmatrix}
+    8 & -8
+  \end{bmatrix}$;
 \end{tcolorbox}
 
+\
 
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  \begin{minipage}{0.80\textwidth}
+    \includegraphics[width = \textwidth]{figure3.png}\\
+  \end{minipage}\\
+  \textbf{Figure 3: }This figure is the graph of the output of the entire system due to a disturbance.
+  The disturbance is modeled as the initial condition as $\begin{bmatrix}
+    8 & -8
+  \end{bmatrix}$. 
+  The PD controller uses the values:
+  \[K_p = 0, K_i = 0, K_d = 2.5*10^{-4}\]
+  designed so that the controller is overdamped, specifically to bring the 
+  output value back down to 0 as fast as possible with the least amount of 
+  oscillation. As seen in Figure 3, we see that the settling time is 
+  way below the specified settling time of 0.05s.
+\end{tcolorbox}
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  
+\end{tcolorbox}
 
 \section{Simulink Implementation} 
 Implement the original nonlinear model in Simulink, assuming the initial states of $x(0) = x_0 + \delta x(0)$ and with the same parameters as Part 6. Keep in mind that the input $v_s$ and the states $v_{dc}$ needs to be non-negative at all times, with the additional safety requirement that they shall not exceed $160V, 20A and 200V$ respectively. \textit{Hint: } you can use a saturation block in Simulink and set its lower and upper limits to the corresponding safety bounds. Apply the controller found in Part 6 by placing it in the closed-loop with the nonlinear model in Simulink. Since we are translating the system back to the original system, adjust the controller input appropriately, and the output's settling value. If needed, redesign your controller. Comment on the differences you observe as you implement the controller in the linearized vs the nonlinear model.
