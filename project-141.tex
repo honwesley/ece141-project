@@ -733,29 +733,81 @@ The system is disturbed from equilibrium and the goal is to make the output retu
 \end{tcolorbox}
 
 \section{Simulink Implementation} 
+<<<<<<< HEAD
 Implement the original nonlinear model in Simulink, assuming the initial states of $x(0) = x_0 + \delta x(0)$ and with the same parameters as Part 6. Keep in mind that the input $v_s$ and the states $v_{dc}$ needs to be non-negative at all times, with the additional safety requirement that they shall not exceed $160V, 20A$ and $200V$ respectively. \textit{Hint: } you can use a saturation block in Simulink and set its lower and upper limits to the corresponding safety bounds. Apply the controller found in Part 6 by placing it in the closed-loop with the nonlinear model in Simulink. Since we are translating the system back to the original system, adjust the controller input appropriately, and the output's settling value. If needed, redesign your controller. Comment on the differences you observe as you implement the controller in the linearized vs the nonlinear model.
+=======
+Implement the original nonlinear model in Simulink, assuming the initial states of $x(0) = x_0 + \delta x(0)$ and with the same parameters as Part 6. Keep in mind that the input $v_s$ and the states $v_{dc}$ needs to be non-negative at all times, with the additional safety requirement that they shall not exceed $160V, 20A and 200V$ respectively. \textit{Hint: } you can use a saturation block in Simulink and set its lower and upper limits to the corresponding safety bounds. Apply the controller found in Part 6 by placing it in the closed-loop with the nonlinear model in Simulink. Since we are translating the system back to the original system, adjust the controller input appropriately, and the output's settling value. If needed, redesign your controller. Comment on the differences you observe as you implement the controller in the linearized vs the nonlinear model.\\
+
+\textbf{Goal: }To implement the original nonlinear model in Simulink considering the safety requirements. Compare the linearized model with the nonlinearized model.\\ 
+
+\textbf{Linearized Model: } 
+\[\delta \dot{x} = A\delta x + B\delta u\] 
+\[y = \delta x_2 = \delta v_{dc}\]
+$\hookrightarrow$ Then, close the loop around a nonlinear model.
+
+>>>>>>> c9a5033e49d6656fcaffe46f2877f84cdea8d2b2
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
+  Using the values restated in Part 6, the equilibrium state is 
+  \[
+  x_0 = \begin{bmatrix}i_{L0}\\ v_{dc0}\end{bmatrix} = \begin{bmatrix}0.33\\80\end{bmatrix}
+  \]
 \end{tcolorbox}
 
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
+  Calculating for the initial condition:
+  \[x(0) = x_0 + \delta x(0)\]
+  \[\delta x(0) = \begin{bmatrix}
+    8\\-8
+  \end{bmatrix}
+  \] 
+  \[x(0) = \begin{bmatrix}
+    0.33\\80
+  \end{bmatrix}+\begin{bmatrix}
+    8\\-8
+  \end{bmatrix}=\begin{bmatrix}
+    8.33\\72
+  \end{bmatrix}
+  \]
+  thus, the nonlinear system has an initial condition of:\\
+  $\hookrightarrow i_L(0) = 8.33A$\\
+  $\hookrightarrow v_{dc}(0) = 72V$
 \end{tcolorbox}
 
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
+  \large{Linearization}\normalsize{}
+  \begin{align*}
+    \delta v_s &= v_s - v_{s0}\\
+    v_s &= v_{s0} + \delta v_s\\
+    v_s &= 80 + \delta v_s\\
+    &\Downarrow\\
+    \delta v_{dc} &= v_{dc} - 80
+  \end{align*}
+  Goal: drive $v_{dc} \rightarrow 80V$, driving $\delta v_{dc} \rightarrow 0$ (equilibrium).\\
+
+  In the controller, \\
+  $\hookrightarrow$ controller sees $v_{dc} - 80$\\
+  $\hookrightarrow$ controller outputs $\delta v_s$\\
+  $\hookrightarrow$ actual input to plant is $80 + \delta v_s$
 \end{tcolorbox}
 
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
+  \large{Nonlinear Dynamics}\normalsize{}\\
+  Inductor current:
+  \[\dot{i_L} = \dfrac{1}{L}(v_s-v_{dc})\]
+  \[\dot{i_L} = 10000(v_s-v_{dc})\] 
+  Capacitor voltage:
+  \begin{align*}
+    \dot{v_{dc}} &= \dfrac{1}{C}(i_L - \dfrac{v_{dc}}{R} - \dfrac{P}{v_{dc}})\\
+    \dot{v_{dc}} &= 10000(i_L - \dfrac{v_{dc}}{1000} - \dfrac{20}{v_{dc}})\\
+  \end{align*}
 \end{tcolorbox}
 
 \
