@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 \contentsline {section}{\numberline {1}State-Space Representation of the System}{5}{section.1}%
 \contentsline {section}{\numberline {2}Linearized Dynamics}{6}{section.2}%
 \contentsline {section}{\numberline {3}Open Loop Transfer Function}{9}{section.3}%
@@ -6,14 +5,4 @@
 \contentsline {section}{\numberline {5}Stability}{13}{section.5}%
 \contentsline {section}{\numberline {6}Controller Design}{15}{section.6}%
 \contentsline {section}{\numberline {7}Simulink Implementation}{22}{section.7}%
-=======
-\contentsline {section}{\numberline {1}State-Space Representation of the System}{4}{section.1}%
-\contentsline {section}{\numberline {2}Linearized Dynamics}{5}{section.2}%
-\contentsline {section}{\numberline {3}Open Loop Transfer Function}{8}{section.3}%
-\contentsline {section}{\numberline {4}Equilibrium Values for the Current through the Wire}{10}{section.4}%
-\contentsline {section}{\numberline {5}Stability}{12}{section.5}%
-\contentsline {section}{\numberline {6}Controller Design}{14}{section.6}%
-\contentsline {section}{\numberline {7}Simulink Implementation}{21}{section.7}%
-\contentsline {section}{\numberline {8}Project Summary}{25}{section.8}%
-\contentsline {section}{\numberline {9}Files}{26}{section.9}%
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+\contentsline {section}{\numberline {8}Project Summary}{26}{section.8}%

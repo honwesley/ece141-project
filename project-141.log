@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.14)  15 MAR 2026 21:07
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.13)  15 MAR 2026 21:07
->>>>>>> dc015ff291d903c5f4e7dc314e6defc68364fbef
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2022.9.13)  15 MAR 2026 21:23
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.14)  15 MAR 2026 21:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -683,11 +675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 \tf@toc=\write5
 \openout5 = `project-141.toc'.
 
-<<<<<<< HEAD
-<lrc.png, id=88, 257.96375pt x 145.54375pt>
-=======
-<lrc.png, id=99, 257.96375pt x 145.54375pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<lrc.png, id=93, 257.96375pt x 145.54375pt>
 File: lrc.png Graphic file (type png)
 <use lrc.png>
 Package pdftex.def Info: lrc.png  used on input line 35.
@@ -737,13 +725,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-<<<<<<< HEAD
 [5]
-<matlab1.png, id=112, 190.21063pt x 146.04562pt>
-=======
-[4]
-<matlab1.png, id=119, 190.21063pt x 146.04562pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab1.png, id=117, 190.21063pt x 146.04562pt>
 File: matlab1.png Graphic file (type png)
 <use matlab1.png>
 Package pdftex.def Info: matlab1.png  used on input line 156.
@@ -808,13 +791,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 247--248
 
  []
 
-<<<<<<< HEAD
 [7]
-<matlab2.png, id=126, 273.02pt x 559.08875pt>
-=======
-[6]
-<matlab2.png, id=132, 273.02pt x 559.08875pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab2.png, id=131, 273.02pt x 559.08875pt>
 File: matlab2.png Graphic file (type png)
 <use matlab2.png>
 Package pdftex.def Info: matlab2.png  used on input line 259.
@@ -864,11 +842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--289
 
  []
 
-<<<<<<< HEAD
-<matlab3.png, id=132, 199.24437pt x 207.77625pt>
-=======
-<matlab3.png, id=139, 199.24437pt x 207.77625pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab3.png, id=137, 199.24437pt x 207.77625pt>
 File: matlab3.png Graphic file (type png)
 <use matlab3.png>
 Package pdftex.def Info: matlab3.png  used on input line 302.
@@ -878,11 +852,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 306--308
 
  []
 
-<<<<<<< HEAD
-<matlab4.png, id=133, 224.84pt x 241.40187pt>
-=======
-<matlab4.png, id=140, 224.84pt x 241.40187pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab4.png, id=138, 224.84pt x 241.40187pt>
 File: matlab4.png Graphic file (type png)
 <use matlab4.png>
 Package pdftex.def Info: matlab4.png  used on input line 318.
@@ -937,11 +907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 406--409
 
  []
 
-<<<<<<< HEAD
-<matlab5.png, id=149, 245.91875pt x 416.05438pt>
-=======
-<matlab5.png, id=156, 245.91875pt x 416.05438pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab5.png, id=154, 245.91875pt x 416.05438pt>
 File: matlab5.png Graphic file (type png)
 <use matlab5.png>
 Package pdftex.def Info: matlab5.png  used on input line 424.
@@ -1001,13 +967,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 487--488
 
  []
 
-<<<<<<< HEAD
 [13 <./matlab5.png>]
-<matlab6.png, id=161, 249.93375pt x 315.1775pt>
-=======
-[12 <./matlab5.png>]
-<matlab6.png, id=167, 249.93375pt x 315.1775pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab6.png, id=166, 249.93375pt x 315.1775pt>
 File: matlab6.png Graphic file (type png)
 <use matlab6.png>
 Package pdftex.def Info: matlab6.png  used on input line 495.
@@ -1087,24 +1048,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 627--640
 
  []
 
-<<<<<<< HEAD
 [17]
-<matlab7.png, id=179, 371.88937pt x 604.50844pt>
-=======
-[16]
-<matlab7.png, id=186, 371.88937pt x 604.50844pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<matlab7.png, id=184, 371.88937pt x 604.50844pt>
 File: matlab7.png Graphic file (type png)
 <use matlab7.png>
 Package pdftex.def Info: matlab7.png  used on input line 665.
 (pdftex.def)             Requested size: 241.15273pt x 392.00342pt.
-<<<<<<< HEAD
  [18]
-<figure1.png, id=184, 1165.35374pt x 690.32906pt>
-=======
- [17]
-<figure1.png, id=191, 1165.35374pt x 690.32906pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<figure1.png, id=189, 1165.35374pt x 690.32906pt>
 File: figure1.png Graphic file (type png)
 <use figure1.png>
 Package pdftex.def Info: figure1.png  used on input line 680.
@@ -1114,13 +1065,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 680--681
 
  []
 
-<<<<<<< HEAD
 [19 <./matlab7.png>]
-<figure2.png, id=191, 868.74562pt x 288.3272pt>
-=======
-[18 <./matlab7.png>]
-<figure2.png, id=198, 868.74562pt x 288.3272pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<figure2.png, id=196, 868.74562pt x 288.3272pt>
 File: figure2.png Graphic file (type png)
 <use figure2.png>
 Package pdftex.def Info: figure2.png  used on input line 692.
@@ -1135,11 +1081,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 690--697
 
  []
 
-<<<<<<< HEAD
-<figure3.png, id=192, 609.77812pt x 413.29407pt>
-=======
-<figure3.png, id=199, 609.77812pt x 413.29407pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<figure3.png, id=197, 609.77812pt x 413.29407pt>
 File: figure3.png Graphic file (type png)
 <use figure3.png>
 Package pdftex.def Info: figure3.png  used on input line 707.
@@ -1169,13 +1111,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 786--788
 
  []
 
-<<<<<<< HEAD
 [22]
-<figure4.png, id=208, 1015.54407pt x 574.39594pt>
-=======
-[21]
-<figure4.png, id=216, 1015.54407pt x 574.39594pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<figure4.png, id=213, 1015.54407pt x 574.39594pt>
 File: figure4.png Graphic file (type png)
 <use figure4.png>
 Package pdftex.def Info: figure4.png  used on input line 813.
@@ -1185,13 +1122,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 813--814
 
  []
 
-<<<<<<< HEAD
 [23]
-<figure5.png, id=213, 771.63281pt x 355.3275pt>
-=======
-[22]
-<figure5.png, id=221, 771.63281pt x 355.3275pt>
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+<figure5.png, id=218, 771.63281pt x 355.3275pt>
 File: figure5.png Graphic file (type png)
 <use figure5.png>
 Package pdftex.def Info: figure5.png  used on input line 823.
@@ -1201,13 +1133,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 823--824
 
  []
 
-<<<<<<< HEAD
 [24 <./figure4.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 831--833
-=======
-[23 <./figure4.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 829--831
->>>>>>> dc015ff291d903c5f4e7dc314e6defc68364fbef
 
  []
 
@@ -1216,14 +1143,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
-<<<<<<< HEAD
-[25 <./figure5.png>] [26] (project-141.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-12-24>
- ***********
-=======
-[24 <./figure5.png>]
+[25 <./figure5.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
  []
@@ -1258,46 +1178,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 855--856
 
  []
 
-[25] [26] (./project-141.aux)
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+[26] [27] (project-141.aux)
+ ***********
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-12-24>
+ ***********
 Package rerunfilecheck Info: File `project-141.out' has not changed.
-(rerunfilecheck)             Checksum: FA92E05ED6A06A91B8458B1A97649CF2;1471.
+(rerunfilecheck)             Checksum: C89156F32C93078FB3894C866D1102C3;1403.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
  28724 strings out of 467871
- 575532 string characters out of 5428443
+ 575508 string characters out of 5428443
  1010269 words of memory out of 5000000
- 57133 multiletter control sequences out of 15000+600000
+ 57131 multiletter control sequences out of 15000+600000
  639170 words of font info for 84 fonts, out of 8000000 for 9000
-=======
- 28542 strings out of 478268
- 573155 string characters out of 5846347
- 880665 words of memory out of 5000000
- 46248 multiletter control sequences out of 15000+600000
- 480708 words of font info for 72 fonts, out of 8000000 for 9000
->>>>>>> 0306772e459070578b86e3195de77357636c5860
  1141 hyphenation exceptions out of 8191
-<<<<<<< HEAD
  98i,20n,118p,1046b,1445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on project-141.pdf (26 pages, 633501 bytes).
-=======
- 90i,20n,99p,1036b,1407s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-<<<<<<< HEAD
-Output written on project-141.pdf (25 pages, 599955 bytes).
->>>>>>> dc015ff291d903c5f4e7dc314e6defc68364fbef
+Output written on project-141.pdf (27 pages, 638034 bytes).
 PDF statistics:
- 305 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Output written on project-141.pdf (26 pages, 603941 bytes).
-PDF statistics:
- 322 PDF objects out of 1000 (max. 8388607)
- 209 compressed objects within 3 object streams
+ 317 PDF objects out of 1000 (max. 8388607)
  37 named destinations out of 1000 (max. 500000)
- 294 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 0306772e459070578b86e3195de77357636c5860
+ 286 words of extra memory for PDF output out of 10000 (max. 10000000)
 
