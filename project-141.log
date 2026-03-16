@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.14)  15 MAR 2026 02:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.14)  15 MAR 2026 20:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1092,21 +1092,37 @@ Underfull \hbox (badness 10000) in paragraph at lines 707--708
  []
 
 [20 <./figure1.png> <./figure2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 736--740
+Underfull \hbox (badness 1019) in paragraph at lines 736--737
+\OT1/cmr/m/n/12 Implement the orig-i-nal non-lin-ear model in Simulink, as-sum-ing the ini-tial states of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 736--737
 
  []
 
 [21 <./figure3.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 741--742
+Underfull \hbox (badness 10000) in paragraph at lines 738--739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 786--788
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 790--792
+<figure4.png, id=208, 1015.54407pt x 574.39594pt>
+File: figure4.png Graphic file (type png)
+<use figure4.png>
+Package pdftex.def Info: figure4.png  used on input line 813.
+(pdftex.def)             Requested size: 350.767pt x 198.39468pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 813--814
 
  []
 
-[23] [24] (project-141.aux)
+[23] [24 <./figure4.png>] (project-141.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1115,17 +1131,17 @@ Package rerunfilecheck Info: File `project-141.out' has not changed.
 (rerunfilecheck)             Checksum: 9181FBE89EA5B832049AB994FDA27AE1;1282.
  ) 
 Here is how much of TeX's memory you used:
- 28704 strings out of 467871
- 575222 string characters out of 5428443
- 1010268 words of memory out of 5000000
- 57116 multiletter control sequences out of 15000+600000
+ 28712 strings out of 467871
+ 575363 string characters out of 5428443
+ 1010269 words of memory out of 5000000
+ 57124 multiletter control sequences out of 15000+600000
  639001 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 98i,20n,118p,965b,1445s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 98i,20n,118p,966b,1445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on project-141.pdf (24 pages, 557980 bytes).
+Output written on project-141.pdf (24 pages, 603646 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
+ 289 PDF objects out of 1000 (max. 8388607)
  33 named destinations out of 1000 (max. 500000)
- 268 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 

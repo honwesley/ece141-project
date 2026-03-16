@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1773566205.76345 "c:/Users/wesle/OneDrive/Documents/ece141 project/project-141.tex" "project-141.pdf" "project-141" 1773566207.26918 0
+["pdflatex"] 1773631790.03335 "c:/Users/wesle/OneDrive/Documents/ece141 project/project-141.tex" "project-141.pdf" "project-141" 1773631791.87759 0
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1233951854 916 f87d7c45f9c908e672703b83b72241a3 ""
@@ -189,10 +189,11 @@
   "C:/Program Files/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/wesle/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1773546981 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/wesle/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1773547379 13323420 925be4d0409560aa349908780f3f45f5 ""
-  "c:/Users/wesle/OneDrive/Documents/ece141 project/project-141.tex" 1773566201 34183 ae55bad7c4c0081b1a092995e480a560 ""
+  "c:/Users/wesle/OneDrive/Documents/ece141 project/project-141.tex" 1773631789 34027 12952e5a71a58733d0878aeb34cfa0a7 ""
   "figure1.png" 1773550628 50741 7168191bb52971b0cad14268c1925874 ""
   "figure2.png" 1773552576 32823 fda8f80bcdae2b24a1b7c4d59af7140f ""
   "figure3.png" 1773558794 22767 7f40d79ce1e1e20800eb3ecd28fbe25b ""
+  "figure4.png" 1773631745 60099 71065634a390cf19c0dbd8158c7b1be0 ""
   "lrc.png" 1773545473 57337 c45a2c12a813cb293c93e86892228acc ""
   "matlab1.png" 1773545476 20685 489b0c414a48edbd9dbd6c4eaba50cd3 ""
   "matlab2.png" 1773545473 61289 531f0195046c2bb595eeb7e4370cd86b ""
@@ -201,10 +202,10 @@
   "matlab5.png" 1773545471 47205 4bc3bb453c92ec785e4a50c71d9f4c4d ""
   "matlab6.png" 1773545471 34304 40ee8d2f3fd3c96ab0040b243a30805b ""
   "matlab7.png" 1773550315 80130 38a1950c5d3078975173a3b28b704ca8 ""
-  "project-141.aux" 1773566207 1032 6b02dfe38c618dfd1dde82a01e3e08b7 "pdflatex"
-  "project-141.out" 1773566207 1282 9181fbe89ea5b832049ab994fda27ae1 "pdflatex"
-  "project-141.tex" 1773566201 34183 ae55bad7c4c0081b1a092995e480a560 ""
-  "project-141.toc" 1773566207 582 2fa2e1ed795091f6bdea1c810ef0f8f3 "pdflatex"
+  "project-141.aux" 1773631791 1032 6b02dfe38c618dfd1dde82a01e3e08b7 "pdflatex"
+  "project-141.out" 1773631791 1282 9181fbe89ea5b832049ab994fda27ae1 "pdflatex"
+  "project-141.tex" 1773631789 34027 12952e5a71a58733d0878aeb34cfa0a7 ""
+  "project-141.toc" 1773631791 582 2fa2e1ed795091f6bdea1c810ef0f8f3 "pdflatex"
   (generated)
   "project-141.aux"
   "project-141.log"
