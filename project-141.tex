@@ -834,15 +834,28 @@ $\hookrightarrow$ Then, close the loop around a nonlinear model.
   The nonlinear closed-loop system successfully regulates the capacitor voltage to the desired equilibrium value of 80V while keeping all signals within their required limits. The nonlinear response shows small differences in the transient behavior due to the true nonlinear nature of the constant power load. The controller I designed remains effective at stabilizing the system and restoring the system to its operating point, or to its equilibrium. 
 \end{tcolorbox}
 
-\
+\newpage
 
-\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
-\end{tcolorbox}
+\section{Project Summary}
+In this project, I analyzed and controlled a DC power system supplying a constant power load (CPL) through an RLC network. The goal was to model the system, analyze its stability, and design a controller capable of stabilizing the system while meeting specified time domain performance requirements.\\
 
-\
+First, the system was modeled using nonlinear state-space equations with the inductor current and capacitor voltage: $i_L$ and $v_{dc}$ respectively selected as the system states. The constant power load introduces the nonlinear term $P/v_{dc}$, which makes the dynamics nonlinear and drastically affects system stability. \\
 
-\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
-\end{tcolorbox}
+The system was then linearized around an equilibrium operating point using the Jacobian of the nonlinear state equations. This produced a linear state space representation of the form 
+\[\delta \dot{x} = A\delta x + B\delta u\]
+\\
+Using the linearized model, the open-loop transfer function from the input voltage perturbation $\delta v_s$ to the output voltage perturbation $\delta v_{dc}$ was derived. Stability analysis showed that the constant power load behaves similarly to a negative resistance, meaning that if the power level is too large relative to the circuit parameters, the system becomes unstable.\\
+
+The equilibrium operating point was then calculated using the given circuit parameters $R = 1000\Omega, P = 20W,$ and $v_{s0} = 80V$. The resulting equilibrium values were $v_{dc0} = 80V$ and $i_{L0} = 0.33A$. Using these values, the stability condition derived earlier was evaluated and it was shown that the linearized system is not BIBO stable.\\
+
+To stabilize the system, a PD controller was designed using the linearized transfer function. A proportional controller alone could not stabilize the system because it cannot modify the sign of the damping term in the characteristic equation. By introducing derivative action, the controller changes the system dynamics so that all coefficients of the characteristic polynomial become positive. With controller parameters $K_p = 0$ and $K_d = 2.5*10^{-4}$, the closed-loop poles become real and negative, producing a stable over-damped response that satisfies the design requirements of no overshoot and a settling time below 0.05s. \\
+
+The controller was then implemented in Simulink using the linearized state-space model. Simulation results showed that the controller successfully drives the output deviation $\delta v_{dc}$ back to zero within the required settling time while maintaining a smooth, non-oscillatory response.\\
+
+Finally, the controller was applied to the original nonlinear system in Simulink. Because the controller was designed using deviation variables, the nonlinear implementation required translating the controller back to the original variables so that regulating $v_{dc}$ 80V corresponds to driving $\delta v_{dc}$ to zero. Saturation blocks were added to enforce the required physical limits on voltage and current. The nonlinear simulations confirmed that the controller stabilizes the system and regulates the capacitor voltage back to the equilibrium value while satisfying the safety constraints.\\
+
+Overall, this project demonstrates how nonlinear power electronics systems with constant power loads can show destabilizing behavior, and how linearization combined with classical feedback control design can be used to stabilize and regulate such unstable systems. 
+
+\section{Files}
+
 \end{document}

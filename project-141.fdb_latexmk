@@ -212,8 +212,8 @@
   "project-141.toc" 1773634047 582 2fa2e1ed795091f6bdea1c810ef0f8f3 "pdflatex"
 =======
 # Fdb version 3
-["pdflatex"] 1773634071 "/Users/wesleyhon/Documents/141 Project/project-141.tex" "project-141.pdf" "project-141" 1773634073
-  "/Users/wesleyhon/Documents/141 Project/project-141.tex" 1773634070 35825 190c37ad869a10b0daf753bdb0082617 ""
+["pdflatex"] 1773635012 "/Users/wesleyhon/Documents/141 Project/project-141.tex" "project-141.pdf" "project-141" 1773635013
+  "/Users/wesleyhon/Documents/141 Project/project-141.tex" 1773635011 39049 476941cce7660bba68386c0a5cfe7a2b ""
   "/usr/local/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -426,11 +426,18 @@
   "matlab5.png" 1773524633 47205 7ea9254613f187267c9eb9d9aac04558 ""
   "matlab6.png" 1773528709 34304 f578414033e3c536c7cfe84ad1f42b11 ""
   "matlab7.png" 1773560561 80130 1f754757bfd8276951e23aac9cb02d12 ""
+<<<<<<< HEAD
   "project-141.aux" 1773634073 1556 094dcfc0d796f44f3e599b1b1518adc8 "pdflatex"
   "project-141.out" 1773634073 1282 9181fbe89ea5b832049ab994fda27ae1 "pdflatex"
   "project-141.tex" 1773634070 35825 190c37ad869a10b0daf753bdb0082617 ""
   "project-141.toc" 1773634073 582 246b1a6c6ab48087ae093568c85758b6 "pdflatex"
 >>>>>>> dc015ff291d903c5f4e7dc314e6defc68364fbef
+=======
+  "project-141.aux" 1773635013 1772 7823e49e05b738175ae9468a60e2e160 "pdflatex"
+  "project-141.out" 1773635013 1471 fa92e05ed6a06a91b8458b1a97649cf2 "pdflatex"
+  "project-141.tex" 1773635011 39049 476941cce7660bba68386c0a5cfe7a2b ""
+  "project-141.toc" 1773635013 716 b044364e078c37fa07377b4be19848c2 "pdflatex"
+>>>>>>> 0306772e459070578b86e3195de77357636c5860
   (generated)
   "project-141.aux"
   "project-141.log"
