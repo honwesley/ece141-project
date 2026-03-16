@@ -818,7 +818,12 @@ $\hookrightarrow$ Then, close the loop around a nonlinear model.
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
+  \large{Summary (Part 7)}\normalsize{}\\
+  The original nonlinear system was implemented in Simulink using the plant equations for the inductor current and capacitor voltage, which include the constant power load term $P/v_{dc}$. The controller designed in Part 6 was originally formulated using deviation variables, so the nonlinear implementation required translating the controller back to the original variables. The feedback error was defined as $e(t) = 80-v_{dc}(t)$, ensuring that regulating the nonlinear output to 80V corresponds to driving the output $\delta v_{dc}$ to zero. The controller output produces $\delta v_s$, and the actual plant input is obtained using $v_s = 80 + \delta v_s$. \\
+
+  I added saturation blocks to enforce the physical safety limits listed in the specifications in the project, ensuring that $0 \leq v_s \leq 160V$, $0 \leq i_L \leq 20A$, and $0 \leq v_{dc} \leq 200V$. Because the nonlinear model contains the term $\dfrac{P}{v_{dc}}$, a small lower bound was used in simulation to prevent division by zero. The system was simulated using the stiff solver \texttt{ode23s} to accurately capture the fast electrical dynamics. \\
+
+  The nonlinear closed-loop system successfully regulates the capacitor voltage to the desired equilibrium value of 80V while keeping all signals within their required limits. The nonlinear response shows small differences in the transient behavior due to the true nonlinear nature of the constant power load. The controller I designed remains effective at stabilizing the system and restoring the system to its operating point, or to its equilibrium. 
 \end{tcolorbox}
 
 \

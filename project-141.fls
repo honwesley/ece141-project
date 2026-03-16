@@ -1086,6 +1086,7 @@ INPUT ./figure4.png
 INPUT figure4.png
 INPUT ./figure4.png
 INPUT ./figure4.png
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmtt12.tfm
 INPUT project-141.aux
 INPUT ./project-141.out
 INPUT ./project-141.out
@@ -1103,4 +1104,5 @@ INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb
+INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb
 INPUT /usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb
