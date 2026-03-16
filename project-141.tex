@@ -812,16 +812,7 @@ $\hookrightarrow$ Then, close the loop around a nonlinear model.
   \begin{minipage}{0.80\textwidth}
     \includegraphics[width = \textwidth]{figure4.png}\\
   \end{minipage}\\
-  \textbf{Figure 4: }This figure is the graph of the output of the entire system due to a disturbance.
-  The disturbance is modeled as the initial condition as $\begin{bmatrix}
-    8 & -8
-  \end{bmatrix}$. 
-  The PD controller uses the values:
-  \[K_p = 0, K_i = 0, K_d = 2.5*10^{-4}\]
-  designed so that the controller is overdamped, specifically to bring the 
-  output value back down to 0 as fast as possible with the least amount of 
-  oscillation. As seen in Figure 3, we see that the settling time is 
-  way below the specified settling time of 0.05s.
+  \textbf{Figure 4: }The closed-loop Simulink model was built by placing the Part 6 Derivative-only controller around the nonlinear plant. Since the controller was designed using deviation variables, the feedback error for the nonlinear system was defined as $e(t) = 80 -v_{dc}(t)$, so that regulating the nonlinear output to $80V$ is equivalent to driving $\delta v_{dc} \rightarrow 0$. The controller output is $\delta v_s$, and the acutal plant input is formed using $v_s = 80 + \delta v_s$. A saturation block was added to enforce the source voltage safety bound as listed in the specification. Inside the plant subsystem, the nonlinear dynamics $\dot{i_L} = 10000(v_s-v_{dc})$ and $\dot{v_{dc}} = 10000(i_L -\dfrac{v_{dc}}{1000} - \dfrac{20}{v_{dc}})$ were implemented using gains, sums, divide, and integrator blocks. The state variables were also constrained to the required safety ranges $0 \leq i_L \leq 20 A$ and $0 \leq v_{dc} \leq 200V$. 
 \end{tcolorbox}
 
 \
