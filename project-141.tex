@@ -822,7 +822,7 @@ $\hookrightarrow$ Then, close the loop around a nonlinear model.
   \begin{minipage}{0.80\textwidth}
     \includegraphics[width = \textwidth]{figure5.png}\\
   \end{minipage}\\
-  \textbf{Figure 5: }
+  \textbf{Figure 5: }Closed loop block diagram in Simulink of the nonlinear system with the Part 6 PD controller.  The capacitor voltage $v_dc$ is fed back and compared with the reference value of 80V to form the error $e(t) = 80 - v_{dc}(t)$. The controller generates the deviation input $\delta v_s$. A saturation block enforces the physical bounds $0 \leq v_s \leq 160V$. The nonlinear plant subsystem implements the original dynamics and outputs the inductor current and the capacitor voltage: $i_L$ and $v_{dc}$ respectively.
 \end{tcolorbox}
 
 \
