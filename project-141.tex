@@ -815,6 +815,16 @@ $\hookrightarrow$ Then, close the loop around a nonlinear model.
   \textbf{Figure 4: }The closed-loop Simulink model was built by placing the Part 6 Derivative-only controller around the nonlinear plant. Since the controller was designed using deviation variables, the feedback error for the nonlinear system was defined as $e(t) = 80 -v_{dc}(t)$, so that regulating the nonlinear output to $80V$ is equivalent to driving $\delta v_{dc} \rightarrow 0$. The controller output is $\delta v_s$, and the acutal plant input is formed using $v_s = 80 + \delta v_s$. A saturation block was added to enforce the source voltage safety bound as listed in the specification. Inside the plant subsystem, the nonlinear dynamics $\dot{i_L} = 10000(v_s-v_{dc})$ and $\dot{v_{dc}} = 10000(i_L -\dfrac{v_{dc}}{1000} - \dfrac{20}{v_{dc}})$ were implemented using gains, sums, divide, and integrator blocks. The state variables were also constrained to the required safety ranges $0 \leq i_L \leq 20 A$ and $0 \leq v_{dc} \leq 200V$. 
 \end{tcolorbox}
 
+
+\
+
+\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
+  \begin{minipage}{0.80\textwidth}
+    \includegraphics[width = \textwidth]{figure5.png}\\
+  \end{minipage}\\
+  \textbf{Figure 5: }
+\end{tcolorbox}
+
 \
 
 \begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
@@ -824,12 +834,6 @@ $\hookrightarrow$ Then, close the loop around a nonlinear model.
   I added saturation blocks to enforce the physical safety limits listed in the specifications in the project, ensuring that $0 \leq v_s \leq 160V$, $0 \leq i_L \leq 20A$, and $0 \leq v_{dc} \leq 200V$. Because the nonlinear model contains the term $\dfrac{P}{v_{dc}}$, a small lower bound was used in simulation to prevent division by zero. The system was simulated using the stiff solver \texttt{ode23s} to accurately capture the fast electrical dynamics. \\
 
   The nonlinear closed-loop system successfully regulates the capacitor voltage to the desired equilibrium value of 80V while keeping all signals within their required limits. The nonlinear response shows small differences in the transient behavior due to the true nonlinear nature of the constant power load. The controller I designed remains effective at stabilizing the system and restoring the system to its operating point, or to its equilibrium. 
-\end{tcolorbox}
-
-\
-
-\begin{tcolorbox}[enhanced, frame hidden, colback=white, borderline west={1pt}{0pt}{gray}]
-  
 \end{tcolorbox}
 
 \

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.14)  15 MAR 2026 20:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.14)  15 MAR 2026 21:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1123,16 +1123,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 813--814
  []
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 821--823
+<figure5.png, id=213, 771.63281pt x 355.3275pt>
+File: figure5.png Graphic file (type png)
+<use figure5.png>
+Package pdftex.def Info: figure5.png  used on input line 823.
+(pdftex.def)             Requested size: 350.767pt x 161.52245pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 823--824
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 824--825
+Underfull \hbox (badness 10000) in paragraph at lines 831--833
 
  []
 
-[24 <./figure4.png>] [25] (project-141.aux)
+
+Underfull \hbox (badness 10000) in paragraph at lines 834--835
+
+ []
+
+[24 <./figure4.png> <./figure5.png>] [25] (project-141.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1141,17 +1152,17 @@ Package rerunfilecheck Info: File `project-141.out' has not changed.
 (rerunfilecheck)             Checksum: 9181FBE89EA5B832049AB994FDA27AE1;1282.
  ) 
 Here is how much of TeX's memory you used:
- 28716 strings out of 467871
- 575400 string characters out of 5428443
+ 28723 strings out of 467871
+ 575525 string characters out of 5428443
  1010269 words of memory out of 5000000
- 57126 multiletter control sequences out of 15000+600000
+ 57133 multiletter control sequences out of 15000+600000
  639170 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  98i,20n,118p,1046b,1445s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on project-141.pdf (25 pages, 611534 bytes).
+Output written on project-141.pdf (25 pages, 631946 bytes).
 PDF statistics:
- 299 PDF objects out of 1000 (max. 8388607)
+ 301 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
- 273 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 278 words of extra memory for PDF output out of 10000 (max. 10000000)
 
